@@ -1,19 +1,11 @@
 // Напишите класс геометрической точки, принимающей в конструкторе координаты X и Y
 // Со звездочкой: реализовать метод, который возвращает расстояние от точки до центра координат (0, 0)
 class Point {
-    /*constructor(x,y){
-        let [xPoint=0,yPoint=0]=[x,y];
-        this.x=xPoint;
-        this.y=yPoint;
-    }
-    getSize(){
-        return Math.sqrt(Math.pow(this.x,2)+Math.pow(this.y,2));
-    }
-    */
+   
    constructor(x,y){
-    let [xx=0,yy=0]=[x,y];
-    this.x=xx;
-    this.y=yy;
+    let [xPoint=0,yPoint=0]=[x,y];
+    this.x=xPoint;
+    this.y=yPoint;
   }
   getDistance(){
     return Math.sqrt(Math.pow(this.x,2)+Math.pow(this.y,2));
